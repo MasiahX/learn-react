@@ -1,0 +1,60 @@
+._landing-wrapper {
+ position: relative;
+ background: url("https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80") no-repeat center center/cover;
+ height: 100vh;
+}
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color : rgba(0,0,0,.5)
+}
+.landing-inner {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.x-large {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #f4f4f4;
+  color: #333 !important;
+  padding: 0.4rem  1.3rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none;
+}
+.btn-primary {
+   background-color: #03a9f4;
+   color: white !important;
+}
+
+.btn-primary:hover {
+   background-color:#81d4fa;
+   color: black !important;
+}
+.btn-primary-light:hover {
+   background-color:#33691e;
+   color: white !important;
+}

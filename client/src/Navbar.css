@@ -1,0 +1,38 @@
+
+.link {
+      color: #eceff1 ;
+      text-decoration: none;
+ }
+
+nav {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top:0;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  border-bottom: 1px solid #1792b8;
+
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul > li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.link-nav {
+  padding: 0.45rem;
+  margin:0 0.25rem;
+  color: #17a2b8;
+}
+
+.link-nav:hover {
+  color: white;
+}
